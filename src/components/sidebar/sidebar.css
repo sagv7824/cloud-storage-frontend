@@ -34,3 +34,6 @@
     padding-bottom: 12px;
     color: azure;
 }
+.sidebar-item:active {
+    transform: scale(0.85);
+}

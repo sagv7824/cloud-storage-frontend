@@ -1,5 +1,7 @@
 import Explorer from "../../components/fileExplorer/fileExplorer";
 import Sidebar from "../../components/sidebar/sidebar";
+import Navbar from "../../components/navbar/navbar";
+import "./fileManager.css";
 export default function FileManager() {
     const elements = [];
     for(let i = 1; i < 31; i++) {
@@ -9,6 +11,14 @@ export default function FileManager() {
     //     <Explorer fileList={elements}/>
     // );
     return (
-        <Sidebar/>
+        <div className="file-manager-root-container">
+            <div className="file-manager-navbar-container">
+                <Navbar/>
+            </div>
+            <div className="file-manager-explorer-container">
+                    <div className="file-manager-sidebar"><Sidebar/></div>
+                    <div className="file-manager-explorer"><Explorer fileList={elements}/></div>
+            </div>
+        </div>
     );
 }

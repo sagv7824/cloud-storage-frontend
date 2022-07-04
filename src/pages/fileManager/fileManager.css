@@ -1,0 +1,18 @@
+.file-manager-root-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-manager-explorer-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.file-manager-explorer {
+    width: 100%;
+}
+
+.file-manager-sidebar {
+    /* width: 25vw; */
+}

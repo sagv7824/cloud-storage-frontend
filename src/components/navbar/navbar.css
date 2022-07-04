@@ -1,0 +1,21 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1em;
+    background-color: #6eeed4;
+}
+
+.sign-up-inner-button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sign-up-inner-button:hover {
+    padding: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.sign-up-inner-button:active {
+    transform: scale(0.85);
+}
