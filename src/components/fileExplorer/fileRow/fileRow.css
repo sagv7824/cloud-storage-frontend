@@ -1,0 +1,18 @@
+.file-row-light {
+    display: flex;
+    background-color: #FFC34D;
+}
+.file-row-dark {
+    display: flex;
+    background-color: #FFDD99;
+}
+.file-name {
+    flex-grow: 4;
+    padding-left: 2em;
+}
+.file-created-date {
+    flex-grow: 1;
+}
+.file-size {
+    flex-grow: 1;
+}
